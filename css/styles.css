@@ -1,0 +1,350 @@
+body {
+	font-family: 'Martel Sans', sans-serif;
+}
+
+main {
+	background-color: white;
+}
+
+h1, h2 {
+	color:  #6B224D;
+}
+
+button {
+	background-color: #B28FA4;
+	border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+#cartbtn {
+	background-color: #B28FA4;
+	border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+#header {
+	display: flex;
+	justify-content: space-between;
+}
+
+#header-corner {
+	width: 33%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: right;
+}
+
+#header-corner a {
+	width: 25%;
+}
+
+#cart-img {
+	width: 65%;
+}
+
+#logo-div {
+	width: 33%;
+}
+
+#logo {
+	width: 25%;
+}
+
+#admin-link {
+	width: 33%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+nav {
+	background-color: #6B224D;
+}
+
+nav ul {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	list-style-type: none;
+	height: 2.5em;
+	align-items: center;
+}
+
+nav ul li {
+	color: white;
+}
+
+nav ul a {
+	text-decoration: none;
+}
+
+nav ul li:hover {
+	background-color: #B28FA4;
+}
+
+.main-page {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.center-content {
+	padding-left: 1%;
+}
+
+#form-style {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 15px;
+}
+
+#form-style label {
+	margin: 10px;
+}
+
+#top-span {
+	margin-top: 25px;
+}
+
+#bottom-span {
+	margin-bottom: 25px;
+}
+
+#left-align {
+	width: 80%;
+	margin: 15px;
+}
+
+#home-images {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	position: relative;
+}
+
+#soap-pic {
+	width: 80%;
+	border-radius: 25px;
+}
+
+
+#details li {
+	padding: 10px;
+}
+
+#upgrades-flexbox {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.upgrade {
+	width: 45%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 2%;
+}
+
+.upgrade img {
+	padding-left: 40%;
+	padding-right: 40%;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	width: 40%;
+	height: 70%;
+	background-color: #ffffff;
+}
+
+footer {
+	color:  white;
+	background-color: #6B224D;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+#purchases-notice {
+	margin: 15px;
+}
+
+#purchases-form {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 5px;
+}
+
+#purchase-display {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	list-style: none;
+}
+
+#purchase-display li {
+	border: 2px solid black;
+	padding: 10px;
+	margin: 10px;
+	max-width: 40%;
+}
+
+#purchase-options {
+	display: flex;
+	justify-content: space-between;
+}
+
+.droptab {
+	margin: 0;
+}
+
+.dropmenu {
+ overflow: hidden;
+}
+
+
+.dropmenu-content {
+  display: none;
+  position: absolute;
+  background-color: #B28FA4;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropmenu-content a {
+  float: none;
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropmenu-content a:hover {
+  background-color: #B4526A;
+}
+
+.dropmenu:hover .dropmenu-content {
+  display: block;
+}
+
+#prod-display {
+	list-style-type: none;
+}
+
+.prod-item {
+	margin: 60px;
+}
+
+.prod-item a {
+	text-decoration: none;
+}
+
+.prod-item img {
+	width: 50%;
+}
+
+#prod-image {
+	width: 50%;
+}
+
+.cart-item {
+	margin: 50px;
+}
+
+.purchase-record {
+	margin: 30px;
+}
+
+#prod-manage-link {
+	margin-top: 35px;
+}
+
+@media only screen and (min-width: 900px) {
+	
+	body {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	nav ul {
+		font-size: 1.7vw;
+	}
+
+	main {
+		max-width: 95%;
+	}
+
+	#center-content {
+		width: 96%;
+		padding-left: 3%;
+	}
+
+	#home-images {
+		display: flex;
+		flex-direction: row;
+	}
+
+	#soap-pic {
+	width: 50%;
+	border-radius: 25px;
+}
+
+	#own-today {
+		width: 10%;
+		position: absolute;
+		padding-bottom: 10%;
+	}
+
+	#details {
+		display: flex;
+		flex-direction: column;
+		align-content: center;
+		justify-content: space-between;
+	}
+
+	#upgrades {
+		width: 40%;
+	}
+
+	#upgrades-flexbox {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+	}
+
+	.upgrade {
+		width: 45%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.upgrade img {
+		padding-left: 40%;
+		padding-right: 40%;
+		width: 40%;
+		background-color: #ffffff;
+	}
+
+}
